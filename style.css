@@ -1,0 +1,45 @@
+body {
+    background-color: rgba(255, 255, 0, 0.644);
+    text-align: center;
+}
+
+h1 {
+    background-color: #6C757D;
+    color: white;
+    width: 100%;
+    font-size: 25px !important;
+    margin: 0px;
+    padding: 10px !important;
+}
+
+#sketch {
+    float: right;
+}
+
+img {
+    width: 90%;
+}
+
+p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.clear {
+    background-color: #17A2B8;
+    color: white;
+}
+
+canvas {
+    border: 5px solid #6A3735;
+    margin-top: 100px;
+    border-radius: 10px;
+    animation-name: Example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes Example{
+    from{box-shadow: 5px 5px 18px grey;}
+    to{box-shadow: 5px 5px 18px white;}
+}
